@@ -1,0 +1,117 @@
+Packet (Length: 855)
+Layer SLL:
+	Packet type: Unicast to us (0)
+	Link-layer address type: Unknown (520)
+	Link-layer address length: 0
+	Unused: f9d1096ab78c23a6
+	Protocol: IPv6 (0x86dd)
+Layer IPV6:
+	0110 .... = Version: 6
+	.... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	.... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+	.... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	.... 0000 0000 0000 0000 0000 = Flow Label: 0x00000
+	Payload Length: 799
+	Next Header: TCP (6)
+	Hop Limit: 120
+	Source Address: 2405:200:1601:c2e0:49:40:14:88
+	Destination Address: 2409:40c2:25:46e5:8000::
+Layer TCP:
+	Source Port: 8080
+	Destination Port: 46912
+	Stream index: 23
+	Conversation completeness: Incomplete, DATA (15)
+	TCP Segment Len: 767
+	Sequence Number: 2051    (relative sequence number)
+	Sequence Number (raw): 1831841173
+	Next Sequence Number: 2818    (relative sequence number)
+	Acknowledgment Number: 28660    (relative ack number)
+	Acknowledgment number (raw): 1943183135
+	1000 .... = Header Length: 32 bytes (8)
+	Flags: 0x018 (PSH, ACK)
+	000. .... .... = Reserved: Not set
+	...0 .... .... = Accurate ECN: Not set
+	.... 0... .... = Congestion Window Reduced: Not set
+	.... .0.. .... = ECN-Echo: Not set
+	.... ..0. .... = Urgent: Not set
+	.... ...1 .... = Acknowledgment: Set
+	.... .... 1... = Push: Set
+	.... .... .0.. = Reset: Not set
+	.... .... ..0. = Syn: Not set
+	.... .... ...0 = Fin: Not set
+	TCP Flags: ·······AP···
+	Window: 254
+	Calculated window size: 65024
+	Window size scaling factor: 256
+	Checksum: 0x4609 [unverified]
+	Checksum Status: Unverified
+	Urgent Pointer: 0
+	Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+	TCP Option - No-Operation (NOP)
+	Kind: No-Operation (1)
+	TCP Option - Timestamps
+	Length: 10
+	Timestamp value: 1748247750: TSval 1748247750, TSecr 2707099441
+	Timestamp echo reply: 2707099441
+	Timestamps
+	Time since first frame in this TCP stream: 1.090310000 seconds
+	Time since previous frame in this TCP stream: 0.069969000 seconds
+	SEQ/ACK analysis
+	This is an ACK to the segment in frame: 2118
+	The RTT to ACK the segment was: 0.069969000 seconds
+	iRTT: 0.040676000 seconds
+	Bytes in flight: 767
+	Bytes sent since last PSH flag: 767
+	TCP payload (767 bytes)
+	TCP Option - No-Operation (NOP)
+	Kind: No-Operation (1)
+	Kind: Time Stamp Option (8)
+Layer HTTP:
+	HTTP/1.1 200 OK\r\n
+	Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n
+	HTTP/1.1 200 OK\r\n
+	Severity level: Chat
+	Group: Sequence
+	Response Version: HTTP/1.1
+	Status Code: 200
+	Status Code Description: OK
+	Response Phrase: OK
+	SOAPAction: \r\n
+	Server: WildFly/10\r\n
+	Content-Type: text/xml;charset=utf-8\r\n
+	Content-Length: 592\r\n
+	Content length: 592
+	Date: Thu, 08 Jun 2023 10:42:42 GMT\r\n
+	HTTP response 4/4
+	Time since request: 0.069969000 seconds
+	Prev request in frame: 2109
+	Prev response in frame: 2114
+	Request in frame: 2118
+	Request URI: http://iotacs.jioconnect.com:8080/ftacs-digest/ACS
+	File Data: 592 bytes
+	\r\n
+	X-Powered-By: Undertow/3\r\n
+Layer XML:
+	<SOAP-ENV:Envelope
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	1994499
+	</cwmp:ID>
+	<SOAP-ENV:Header>
+	<cwmp:ID
+	<SOAP-ENV:Body>
+	<cwmp:GetParameterValues>
+	<ParameterNames
+	<string>
+	xmlns:cwmp="urn:dslforum-org:cwmp-1-2"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	SOAP-ENV:mustUnderstand="1">
+	SOAP-ENC:arrayType="xsd:string[1]">
+	Device.WiFi.SSID.4.Security.KeyPassphrase
+	</SOAP-ENV:Header>
+	</string>
+	</ParameterNames>
+	</cwmp:GetParameterValues>
+	</SOAP-ENV:Body>
+	</SOAP-ENV:Envelope>

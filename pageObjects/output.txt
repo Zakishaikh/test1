@@ -1,0 +1,1 @@
+['          inet6 addr: 2409:40c2:2b:1691:8000::/128 Scope:Global\n']
