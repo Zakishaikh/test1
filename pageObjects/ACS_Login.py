@@ -22,6 +22,7 @@ class Login_ACS:
     button_Reboot_xpath = '//*[@id="btnReboot_btn"]'
     button_AlertOk1_xpath = '//*[@id="btnOk_btn"]'
     button_AlertOk2_xpath = '//*[@id="btnAlertOk_btn"]'
+    button_GPV_xpath = '//*[@id="UcDeviceSettingsControls1_btnGetCurrent_btn"]'
 
     def __init__(self, driver):
         self.driver = driver
@@ -74,5 +75,8 @@ class Login_ACS:
 
     def Reboot(self):
         self.driver.find_element(By.XPATH, self.button_Reboot_xpath).click()
+
+    def GetCurrentParameter(self):
+        self.driver.find_element(By.XPATH, self.button_GPV_xpath).click()
 
 

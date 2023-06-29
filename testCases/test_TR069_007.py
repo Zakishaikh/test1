@@ -31,7 +31,7 @@ class Test_CheckEthernetStats:
 
         self.Av.ClickAdvancedView()
         time.sleep(5)
-        self.Av.SearchTreeElement(ReadConfig_ACS_Tree.getInterface2Stats())
+        self.Av.SearchTreeElement(ReadConfig_ACS_Tree.getInterface1Stats())
         time.sleep(2)
         self.Es = EthernetStats(self.driver)
         BytesReceived_before = self.Es.GetBytesReceived_Stats()
@@ -59,7 +59,7 @@ class Test_CheckEthernetStats:
 
         self.Av.ClickAdvancedView()
         time.sleep(5)
-        self.Av.SearchTreeElement(ReadConfig_ACS_Tree.getInterface2Stats())
+        self.Av.SearchTreeElement(ReadConfig_ACS_Tree.getInterface1Stats())
         time.sleep(2)
 
         self.Av.SwitchToDefault()
@@ -80,6 +80,8 @@ class Test_CheckEthernetStats:
         print('Packets Received after playing youtube video : ' + str(PacketsReceived_after))
         PacketsSent_after = self.Es.GetPacketsSent_Stats()
         print('Packets Sent after playing youtube video : ' + str(PacketsSent_after))
+
+        self.driver.close()
 
         if BytesReceived_before < BytesReceived_after and BytesSent_before < BytesSent_after and PacketsReceived_before < PacketsReceived_after and PacketsSent_before < PacketsSent_after:
             result = 'PASS'
