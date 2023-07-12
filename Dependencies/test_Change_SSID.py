@@ -2,7 +2,7 @@ import time
 from pageObjects.ACS_Login import Login_ACS
 from utilities.ReadAcsProperties import ReadConfig_ACS_Environment
 from pageObjects.ACS_AdvancedView import Advanced_View
-from pageObjects.ACS_WiFi import Set_SsidName
+from pageObjects.ACS_WiFi import acsWifi
 from pageObjects.ACS_Tasks import AcsTasks
 from utilities.ReadAcsTree import ReadConfig_ACS_Tree
 from testCases import Input_File
@@ -36,7 +36,7 @@ class Test_ChangeSsidName:
         FailedTask_before = self.At.FailedTask()
 
         self.Av.ClickAdvancedView()
-        self.Ss = Set_SsidName(self.driver)
+        self.Ss = acsWifi(self.driver)
         SSID_number = ReadConfig_ACS_Tree.getSSID()
         ApStatus = self.Ss.Check_AP_Status(SSID_number=int(SSID_number))
         print('Ap Status : ' + str(ApStatus))

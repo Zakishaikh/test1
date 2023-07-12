@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.common.action_chains import ActionChains
+from testCases import Input_File
 
 
 class Navigate_WiFi:
@@ -44,7 +45,7 @@ class Navigate_WiFi:
             time.sleep(2)
             self.driver.switch_to.frame('frm_main2')
             time.sleep(3)
-        except Exception as msg :
+        except Exception as msg:
             print('Exception occurred')
         global GUI_SSID_Name
         if int(SSID_number) == 1:
@@ -55,7 +56,7 @@ class Navigate_WiFi:
             GUI_SSID_Name = element.get_attribute('value')
         return GUI_SSID_Name
 
-    def CheckSsidPwd(self,SSID_number):
+    def CheckSsidPwd(self, SSID_number):
         global GUI_Pwd_Name
         if int(SSID_number) == 1:
             element = self.driver.find_element(By.XPATH, self.textbox_2GHzPwd_xpath)
@@ -102,6 +103,101 @@ class Navigate_WiFi:
         self.driver.find_element(By.XPATH, self.button_BandSteeringStatus_xpath).click()
         self.driver.find_element(By.XPATH, self.button_SaveWirelessSetting_xpath).click()
 
+    def SetSSIDFromGui(self, SSID_number):
+        global GUI_SSIDName, GUI_Pwd
+        self.driver.find_element(By.XPATH, self.menu_WiFi_xpath).click()
+        time.sleep(2)
 
+        if int(SSID_number) == 1:
+            self.driver.find_element(By.XPATH, self.menu_wireless_xpath).click()
+            time.sleep(2)
+            self.driver.switch_to.frame('frm_main2')
+            time.sleep(2)
+            self.driver.find_element(By.XPATH, self.textbox_2GHzSsid_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_2GHzSsid_xpath).send_keys(Input_File.SSID_AP1[1])
+            self.driver.find_element(By.XPATH, self.textbox_2GHzPwd_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_2GHzPwd_xpath).send_keys(Input_File.SSID_Pwd_AP1[1])
+            self.driver.find_element(By.XPATH, self.button_SaveWirelessSetting_xpath).click()
+            time.sleep(30)
+            GUI_SSIDName = self.driver.find_element(By.XPATH, self.textbox_2GHzSsid_xpath).get_attribute('value')
+            GUI_Pwd = self.driver.find_element(By.XPATH, self.textbox_2GHzPwd_xpath).get_attribute('value')
 
+        elif int(SSID_number) == 4:
+            self.driver.find_element(By.XPATH, self.menu_wireless_xpath).click()
+            time.sleep(2)
+            self.driver.switch_to.frame('frm_main2')
+            time.sleep(2)
+            self.driver.find_element(By.XPATH, self.textbox_5GHzSsid_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_5GHzSsid_xpath).send_keys(Input_File.SSID_AP4[1])
+            self.driver.find_element(By.XPATH, self.textbox_5GHzPwd_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_5GHzPwd_xpath).send_keys(Input_File.SSID_Pwd_AP4[1])
+            self.driver.find_element(By.XPATH, self.button_SaveWirelessSetting_xpath).click()
+            time.sleep(30)
+            GUI_SSIDName = self.driver.find_element(By.XPATH, self.textbox_5GHzSsid_xpath).get_attribute('value')
+            GUI_Pwd = self.driver.find_element(By.XPATH, self.textbox_5GHzPwd_xpath).get_attribute('value')
 
+        elif int(SSID_number) == 2:
+            self.driver.find_element(By.XPATH, self.menu_GuestWiFi_xpath).click()
+            time.sleep(2)
+            self.driver.switch_to.frame('frm_main2')
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, self.button_2GHzGuest1Edit_xpath).click()
+            self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).send_keys(Input_File.SSID_AP2[1])
+            self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).send_keys(Input_File.SSID_Pwd_AP2[1])
+            self.driver.find_element(By.XPATH, self.button_SaveWirelessSetting_xpath).click()
+            time.sleep(30)
+            self.driver.find_element(By.XPATH, self.button_2GHzGuest1Edit_xpath).click()
+            GUI_SSIDName = self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).get_attribute('value')
+            GUI_Pwd = self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).get_attribute('value')
+
+        elif int(SSID_number) == 3:
+            self.driver.find_element(By.XPATH, self.menu_GuestWiFi_xpath).click()
+            time.sleep(2)
+            self.driver.switch_to.frame('frm_main2')
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, self.button_2GHzGuest2Edit_xpath).click()
+            self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).send_keys(Input_File.SSID_AP3[1])
+            self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).send_keys(Input_File.SSID_Pwd_AP3[1])
+            self.driver.find_element(By.XPATH, self.button_SaveWirelessSetting_xpath).click()
+            time.sleep(30)
+            self.driver.find_element(By.XPATH, self.button_2GHzGuest2Edit_xpath).click()
+            GUI_SSIDName = self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).get_attribute('value')
+            GUI_Pwd = self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).get_attribute('value')
+
+        elif int(SSID_number) == 5:
+            self.driver.find_element(By.XPATH, self.menu_GuestWiFi_xpath).click()
+            time.sleep(2)
+            self.driver.switch_to.frame('frm_main2')
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, self.button_5GHzGuest1Edit_xpath).click()
+            self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).send_keys(Input_File.SSID_AP5[1])
+            self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).send_keys(Input_File.SSID_Pwd_AP5[1])
+            self.driver.find_element(By.XPATH, self.button_SaveWirelessSetting_xpath).click()
+            time.sleep(30)
+            self.driver.find_element(By.XPATH, self.button_5GHzGuest1Edit_xpath).click()
+            GUI_SSIDName = self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).get_attribute('value')
+            GUI_Pwd = self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).get_attribute('value')
+
+        elif int(SSID_number) == 6:
+            self.driver.find_element(By.XPATH, self.menu_GuestWiFi_xpath).click()
+            time.sleep(2)
+            self.driver.switch_to.frame('frm_main2')
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, self.button_5GHzGuest2Edit_xpath).click()
+            self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).send_keys(Input_File.SSID_AP6[1])
+            self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).clear()
+            self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).send_keys(Input_File.SSID_Pwd_AP6[1])
+            self.driver.find_element(By.XPATH, self.button_SaveWirelessSetting_xpath).click()
+            time.sleep(30)
+            self.driver.find_element(By.XPATH, self.button_5GHzGuest2Edit_xpath).click()
+            GUI_SSIDName = self.driver.find_element(By.XPATH, self.textbox_SsidGuest_xpath).get_attribute('value')
+            GUI_Pwd = self.driver.find_element(By.XPATH, self.textbox_PwdGuest_xpath).get_attribute('value')
+
+        return GUI_SSIDName, GUI_Pwd

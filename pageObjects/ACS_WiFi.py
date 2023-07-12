@@ -11,7 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from testCases import Input_File
 
 
-class Set_SsidName:
+class acsWifi:
     textbox_deviceTreeSearch_xpath = '//*[@id="txbFind"]'
     button_search_xpath = '//*[@id="btnFind_btn"]'
     button_edit_xpath = '//*[@id="UcDeviceSettingsControls1_btnChange_btn"]'
@@ -23,7 +23,8 @@ class Set_SsidName:
     textbox_ApStatus_xpath = '//*[@id="tblParamsTable"]/tbody/tr[5]/td[2]/input'
     textbox_ApEnable_xpath = '//*[@id="tblParamsTable"]/tbody/tr[5]/td[2]/input'
     textbox_SSIDBroadcast_xpath = '//*[@id="tblParamsTable"]/tbody/tr[10]/td[2]/input'
-                                #//*[@id="txtVal526"]
+
+    # //*[@id="txtVal526"]
 
     def __init__(self, driver):
         self.SSID_Pwd = None
@@ -65,6 +66,13 @@ class Set_SsidName:
             self.element_security = ReadConfig_ACS_Tree.getSSIDPwd6()
             self.SSID_Pwd = Input_File.SSID_Pwd_AP6[0]
         return self.element_ap, self.element_ssid, self.element_security, self.SSID_Pwd
+
+    def GPV_SSIDName(self):
+        element = self.driver.find_element(By.XPATH, self.textbox_SSID_xpath)
+        actions = ActionChains(self.driver)
+        actions.move_to_element(element).perform()
+        Acs_SSIDName = self.driver.find_element(By.XPATH, self.textbox_SSID_xpath).get_attribute('value')
+        return Acs_SSIDName
 
     def SSID_Name(self, SSID_number):
         SSID = ''
@@ -290,7 +298,7 @@ class Set_SsidName:
         time.sleep(10)
         self.driver.find_element(By.XPATH, self.textbox_deviceTreeSearch_xpath).clear()
         print('Checking SSID number ' + str(SSID_number))
-        element1, element2, element3, element4 = Set_SsidName.Get_ElementId(self, SSID_number)
+        element1, element2, element3, element4 = acsWifi.Get_ElementId(self, SSID_number)
         self.driver.find_element(By.XPATH, self.textbox_deviceTreeSearch_xpath).send_keys(element1)
 
         self.driver.find_element(By.XPATH, self.button_search_xpath).click()
@@ -310,7 +318,7 @@ class Set_SsidName:
         time.sleep(10)
         self.driver.find_element(By.XPATH, self.textbox_deviceTreeSearch_xpath).clear()
         print('Checking SSID number ' + str(SSID_number))
-        element1, element2, element3, element4 = Set_SsidName.Get_ElementId(self, SSID_number)
+        element1, element2, element3, element4 = acsWifi.Get_ElementId(self, SSID_number)
         self.driver.find_element(By.XPATH, self.textbox_deviceTreeSearch_xpath).send_keys(element1)
 
         self.driver.find_element(By.XPATH, self.button_search_xpath).click()

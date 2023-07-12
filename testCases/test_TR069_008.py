@@ -3,7 +3,7 @@ from pageObjects.ACS_Login import Login_ACS
 from utilities.ReadAcsProperties import ReadConfig_ACS_Environment
 from pageObjects.ACS_AdvancedView import Advanced_View
 from pageObjects.ACS_Ethernet import EthernetStats
-from pageObjects.ACS_WiFi import Set_SsidName
+from pageObjects.ACS_WiFi import acsWifi
 from pageObjects.ACS_Tasks import AcsTasks
 from utilities.ReadAcsTree import ReadConfig_ACS_Tree
 from testCases import Input_File
@@ -33,7 +33,17 @@ class Test_CheckEthernetStats:
         time.sleep(5)
         self.Av.SearchTreeElement(ReadConfig_ACS_Tree.getInterface2Stats())
         time.sleep(2)
+
+        self.Av.SwitchToDefault()
+        self.Av.SwitchFrame('frmButtons')
+        self.lp.GetCurrentParameter()
+        time.sleep(10)
+        self.Av.SwitchToDefault()
+        self.lp.AcceptAlert2()
+        time.sleep(30)
+
         self.Es = EthernetStats(self.driver)
+        self.Av.SwitchFrame('frmDesktop')
         BytesReceived_before = self.Es.GetBytesReceived_Stats()
         print('Bytes Received before playing youtube video : ' + str(BytesReceived_before))
         BytesSent_before = self.Es.GetBytesSent_Stats()
@@ -80,6 +90,8 @@ class Test_CheckEthernetStats:
         print('Packets Received after playing youtube video : ' + str(PacketsReceived_after))
         PacketsSent_after = self.Es.GetPacketsSent_Stats()
         print('Packets Sent after playing youtube video : ' + str(PacketsSent_after))
+
+        self.driver.close()
 
         if BytesReceived_before < BytesReceived_after and BytesSent_before < BytesSent_after and PacketsReceived_before < PacketsReceived_after and PacketsSent_before < PacketsSent_after:
             result = 'PASS'

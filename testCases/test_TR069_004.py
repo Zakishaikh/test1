@@ -15,7 +15,7 @@ import datetime
 
 
 # @pytest.mark.order()
-@pytest.mark.repeat(5)
+#@pytest.mark.repeat(5)
 class Test_RebootDut:
     baseURL_acs = ReadConfig_ACS_Environment.getACSUrL()
     username_acs = ReadConfig_ACS_Environment.getUsername()
