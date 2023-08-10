@@ -29,7 +29,7 @@ class ResultCollector:
 class Ssh_To_DUT:
     logger = LogGen.loggen()
 
-    file_name = '..\\PacketCapture\\testdump_' + str(datetime.now().strftime("%d%m%Y%H%M")) + '.pcap'
+    file_name = '../PacketCapture/testdump_' + str(datetime.now().strftime("%d%m%Y%H%M")) + '.pcap'
 
     @staticmethod
     def SSH_Details():

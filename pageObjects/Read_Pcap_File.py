@@ -6,7 +6,7 @@ from utilities.customLogger import LogGen
 
 class Packet_read:
     logger = LogGen.loggen()
-    file_name = '..\\PacketCapture\\testdump_clat_' + str(datetime.now().strftime("%d%m%Y%H%M")) + '.pcap'
+    file_name = '../PacketCapture/testdump_clat_' + str(datetime.now().strftime("%d%m%Y%H%M")) + '.pcap'
 
     @staticmethod
     def pkt_count():

@@ -4438,3 +4438,524 @@
 04/21/2023 11:07:50 AM: INFO: Total HTTP packet count : 5
 04/21/2023 11:07:50 AM: INFO: Test Login TO Device GUI
 04/21/2023 11:07:50 AM: INFO: Login to Device GUI
+07/17/2023 01:08:53 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 01:08:53 PM: INFO: Authentication (password) successful!
+07/17/2023 01:08:53 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 01:08:53 PM: INFO: Authentication (password) successful!
+07/17/2023 01:08:56 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 01:08:56 PM: INFO: Router SSH Username : admin
+07/17/2023 01:08:56 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 01:08:56 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 01:08:56 PM: INFO: Authentication (password) successful!
+07/17/2023 02:32:36 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:32:36 PM: INFO: Authentication (password) successful!
+07/17/2023 02:32:36 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:32:36 PM: INFO: Authentication (password) successful!
+07/17/2023 02:32:38 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 02:32:38 PM: INFO: Router SSH Username : admin
+07/17/2023 02:32:38 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 02:32:38 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:32:39 PM: INFO: Authentication (password) successful!
+07/17/2023 02:35:41 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:35:41 PM: INFO: Authentication (password) successful!
+07/17/2023 02:35:41 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:35:42 PM: INFO: Authentication (password) successful!
+07/17/2023 02:35:44 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 02:35:44 PM: INFO: Router SSH Username : admin
+07/17/2023 02:35:44 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 02:35:44 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:35:44 PM: INFO: Authentication (password) successful!
+07/17/2023 02:41:12 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:41:12 PM: INFO: Authentication (password) successful!
+07/17/2023 02:41:12 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:41:12 PM: INFO: Authentication (password) successful!
+07/17/2023 02:41:14 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 02:41:14 PM: INFO: Router SSH Username : admin
+07/17/2023 02:41:14 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 02:41:14 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:41:15 PM: INFO: Authentication (password) successful!
+07/17/2023 02:43:06 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:43:06 PM: INFO: Authentication (password) successful!
+07/17/2023 02:43:06 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:43:06 PM: INFO: Authentication (password) successful!
+07/17/2023 02:43:08 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 02:43:08 PM: INFO: Router SSH Username : admin
+07/17/2023 02:43:08 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 02:43:08 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 02:43:09 PM: INFO: Authentication (password) successful!
+07/17/2023 03:11:58 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 03:11:58 PM: INFO: Authentication (password) successful!
+07/17/2023 03:11:58 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 03:11:59 PM: INFO: Authentication (password) successful!
+07/17/2023 03:12:01 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 03:12:01 PM: INFO: Router SSH Username : admin
+07/17/2023 03:12:01 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 03:12:01 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 03:12:01 PM: INFO: Authentication (password) successful!
+07/17/2023 03:22:00 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 03:22:00 PM: INFO: Authentication (password) successful!
+07/17/2023 03:22:00 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 03:22:00 PM: INFO: Authentication (password) successful!
+07/17/2023 03:22:02 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 03:22:02 PM: INFO: Router SSH Username : admin
+07/17/2023 03:22:02 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 03:22:02 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 03:22:03 PM: INFO: Authentication (password) successful!
+07/17/2023 03:27:22 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 03:27:23 PM: INFO: Authentication (password) successful!
+07/17/2023 03:27:23 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 03:27:23 PM: INFO: Authentication (password) successful!
+07/17/2023 03:27:25 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 03:27:25 PM: INFO: Router SSH Username : admin
+07/17/2023 03:27:25 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 03:27:25 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 03:27:25 PM: INFO: Authentication (password) successful!
+07/17/2023 04:07:30 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 04:07:31 PM: INFO: Authentication (password) successful!
+07/17/2023 04:07:31 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 04:07:31 PM: INFO: Authentication (password) successful!
+07/17/2023 04:07:33 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 04:07:33 PM: INFO: Router SSH Username : admin
+07/17/2023 04:07:33 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 04:07:33 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 04:07:33 PM: INFO: Authentication (password) successful!
+07/17/2023 06:40:06 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:40:06 PM: INFO: Authentication (password) successful!
+07/17/2023 06:40:06 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:40:06 PM: INFO: Authentication (password) successful!
+07/17/2023 06:40:08 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 06:40:08 PM: INFO: Router SSH Username : admin
+07/17/2023 06:40:08 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 06:40:08 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:40:08 PM: INFO: Authentication (password) successful!
+07/17/2023 06:42:07 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:42:07 PM: INFO: Authentication (password) successful!
+07/17/2023 06:42:07 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:42:07 PM: INFO: Authentication (password) successful!
+07/17/2023 06:42:09 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 06:42:09 PM: INFO: Router SSH Username : admin
+07/17/2023 06:42:09 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 06:42:09 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:42:09 PM: INFO: Authentication (password) successful!
+07/17/2023 06:43:21 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:43:21 PM: INFO: Authentication (password) successful!
+07/17/2023 06:43:21 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:43:21 PM: INFO: Authentication (password) successful!
+07/17/2023 06:43:23 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 06:43:23 PM: INFO: Router SSH Username : admin
+07/17/2023 06:43:23 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 06:43:23 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:43:23 PM: INFO: Authentication (password) successful!
+07/17/2023 06:58:34 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:58:34 PM: INFO: Authentication (password) successful!
+07/17/2023 06:58:34 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:58:34 PM: INFO: Authentication (password) successful!
+07/17/2023 06:58:36 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 06:58:36 PM: INFO: Router SSH Username : admin
+07/17/2023 06:58:36 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 06:58:36 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 06:58:37 PM: INFO: Authentication (password) successful!
+07/17/2023 07:08:19 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 07:08:19 PM: INFO: Authentication (password) successful!
+07/17/2023 07:08:19 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 07:08:20 PM: INFO: Authentication (password) successful!
+07/17/2023 07:08:22 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 07:08:22 PM: INFO: Router SSH Username : admin
+07/17/2023 07:08:22 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 07:08:22 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 07:08:22 PM: INFO: Authentication (password) successful!
+07/17/2023 07:09:27 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 07:09:27 PM: INFO: Authentication (password) successful!
+07/17/2023 07:09:27 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 07:09:28 PM: INFO: Authentication (password) successful!
+07/17/2023 07:09:30 PM: INFO: Router Ip : 192.168.29.1
+07/17/2023 07:09:30 PM: INFO: Router SSH Username : admin
+07/17/2023 07:09:30 PM: INFO: Router SSH Password : Jiocentrum
+07/17/2023 07:09:30 PM: INFO: Connected (version 2.0, client dropbear)
+07/17/2023 07:09:30 PM: INFO: Authentication (password) successful!
+07/18/2023 03:32:56 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 03:32:56 PM: INFO: Authentication (password) successful!
+07/18/2023 03:32:56 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 03:32:57 PM: INFO: Authentication (password) successful!
+07/18/2023 03:32:59 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 03:32:59 PM: INFO: Router SSH Username : admin
+07/18/2023 03:32:59 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 03:32:59 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 03:32:59 PM: INFO: Authentication (password) successful!
+07/18/2023 03:34:02 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 03:34:03 PM: INFO: Authentication (password) successful!
+07/18/2023 03:34:03 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 03:34:03 PM: INFO: Authentication (password) successful!
+07/18/2023 03:34:05 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 03:34:05 PM: INFO: Router SSH Username : admin
+07/18/2023 03:34:05 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 03:34:05 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 03:34:05 PM: INFO: Authentication (password) successful!
+07/18/2023 03:58:47 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 03:58:47 PM: INFO: Authentication (password) successful!
+07/18/2023 03:58:47 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 03:58:47 PM: INFO: Authentication (password) successful!
+07/18/2023 03:58:49 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 03:58:49 PM: INFO: Router SSH Username : admin
+07/18/2023 03:58:49 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 03:58:49 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 03:58:49 PM: INFO: Authentication (password) successful!
+07/18/2023 04:00:04 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:00:04 PM: INFO: Authentication (password) successful!
+07/18/2023 04:00:04 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:00:04 PM: INFO: Authentication (password) successful!
+07/18/2023 04:00:06 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 04:00:06 PM: INFO: Router SSH Username : admin
+07/18/2023 04:00:06 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 04:00:06 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:00:07 PM: INFO: Authentication (password) successful!
+07/18/2023 04:01:45 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:01:45 PM: INFO: Authentication (password) successful!
+07/18/2023 04:01:45 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:01:45 PM: INFO: Authentication (password) successful!
+07/18/2023 04:01:47 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 04:01:47 PM: INFO: Router SSH Username : admin
+07/18/2023 04:01:47 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 04:01:47 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:01:48 PM: INFO: Authentication (password) successful!
+07/18/2023 04:03:03 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:03:03 PM: INFO: Authentication (password) successful!
+07/18/2023 04:03:03 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:03:04 PM: INFO: Authentication (password) successful!
+07/18/2023 04:03:06 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 04:03:06 PM: INFO: Router SSH Username : admin
+07/18/2023 04:03:06 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 04:03:06 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:03:06 PM: INFO: Authentication (password) successful!
+07/18/2023 04:07:50 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:07:50 PM: INFO: Authentication (password) successful!
+07/18/2023 04:07:50 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:07:50 PM: INFO: Authentication (password) successful!
+07/18/2023 04:07:52 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 04:07:52 PM: INFO: Router SSH Username : admin
+07/18/2023 04:07:52 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 04:07:52 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:07:52 PM: INFO: Authentication (password) successful!
+07/18/2023 04:36:45 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:36:45 PM: INFO: Authentication (password) successful!
+07/18/2023 04:36:45 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:36:45 PM: INFO: Authentication (password) successful!
+07/18/2023 04:36:47 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 04:36:47 PM: INFO: Router SSH Username : admin
+07/18/2023 04:36:47 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 04:36:47 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:36:48 PM: INFO: Authentication (password) successful!
+07/18/2023 04:41:58 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:41:58 PM: INFO: Authentication (password) successful!
+07/18/2023 04:41:58 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:41:59 PM: INFO: Authentication (password) successful!
+07/18/2023 04:42:01 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 04:42:01 PM: INFO: Router SSH Username : admin
+07/18/2023 04:42:01 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 04:42:01 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:42:01 PM: INFO: Authentication (password) successful!
+07/18/2023 04:50:29 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:50:29 PM: INFO: Authentication (password) successful!
+07/18/2023 04:50:29 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:50:29 PM: INFO: Authentication (password) successful!
+07/18/2023 04:50:31 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 04:50:31 PM: INFO: Router SSH Username : admin
+07/18/2023 04:50:31 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 04:50:31 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 04:50:31 PM: INFO: Authentication (password) successful!
+07/18/2023 05:00:03 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:00:04 PM: INFO: Authentication (password) successful!
+07/18/2023 05:00:04 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:00:04 PM: INFO: Authentication (password) successful!
+07/18/2023 05:00:06 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 05:00:06 PM: INFO: Router SSH Username : admin
+07/18/2023 05:00:06 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 05:00:06 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:00:06 PM: INFO: Authentication (password) successful!
+07/18/2023 05:16:14 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:16:14 PM: INFO: Authentication (password) successful!
+07/18/2023 05:16:14 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:16:14 PM: INFO: Authentication (password) successful!
+07/18/2023 05:16:16 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 05:16:16 PM: INFO: Router SSH Username : admin
+07/18/2023 05:16:16 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 05:16:16 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:16:16 PM: INFO: Authentication (password) successful!
+07/18/2023 05:42:05 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:42:05 PM: INFO: Authentication (password) successful!
+07/18/2023 05:42:05 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:42:05 PM: INFO: Authentication (password) successful!
+07/18/2023 05:42:07 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 05:42:07 PM: INFO: Router SSH Username : admin
+07/18/2023 05:42:07 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 05:42:07 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:42:08 PM: INFO: Authentication (password) successful!
+07/18/2023 05:47:22 PM: INFO: Total HTTP packet count : 59
+07/18/2023 05:47:22 PM: INFO: Test Login TO Device GUI
+07/18/2023 05:47:22 PM: INFO: Login to Device GUI
+07/18/2023 05:50:50 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:50:50 PM: INFO: Authentication (password) successful!
+07/18/2023 05:50:50 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:50:51 PM: INFO: Authentication (password) successful!
+07/18/2023 05:50:53 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 05:50:53 PM: INFO: Router SSH Username : admin
+07/18/2023 05:50:53 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 05:50:53 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:50:53 PM: INFO: Authentication (password) successful!
+07/18/2023 05:51:51 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:51:51 PM: INFO: Authentication (password) successful!
+07/18/2023 05:51:51 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:51:52 PM: INFO: Authentication (password) successful!
+07/18/2023 05:51:54 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 05:51:54 PM: INFO: Router SSH Username : admin
+07/18/2023 05:51:54 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 05:51:54 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:51:54 PM: INFO: Authentication (password) successful!
+07/18/2023 05:55:21 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:55:21 PM: INFO: Authentication (password) successful!
+07/18/2023 05:55:21 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:55:22 PM: INFO: Authentication (password) successful!
+07/18/2023 05:55:24 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 05:55:24 PM: INFO: Router SSH Username : admin
+07/18/2023 05:55:24 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 05:55:24 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 05:55:24 PM: INFO: Authentication (password) successful!
+07/18/2023 05:58:06 PM: INFO: Total HTTP packet count : 36
+07/18/2023 05:58:06 PM: INFO: Test Login TO Device GUI
+07/18/2023 05:58:06 PM: INFO: Login to Device GUI
+07/18/2023 06:00:03 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 06:00:04 PM: INFO: Authentication (password) successful!
+07/18/2023 06:00:04 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 06:00:04 PM: INFO: Authentication (password) successful!
+07/18/2023 06:00:06 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 06:00:06 PM: INFO: Router SSH Username : admin
+07/18/2023 06:00:06 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 06:00:06 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 06:00:06 PM: INFO: Authentication (password) successful!
+07/18/2023 06:07:00 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 06:07:01 PM: INFO: Authentication (password) successful!
+07/18/2023 06:07:01 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 06:07:01 PM: INFO: Authentication (password) successful!
+07/18/2023 06:07:03 PM: INFO: Router Ip : 192.168.29.1
+07/18/2023 06:07:03 PM: INFO: Router SSH Username : admin
+07/18/2023 06:07:03 PM: INFO: Router SSH Password : Jiocentrum
+07/18/2023 06:07:03 PM: INFO: Connected (version 2.0, client dropbear)
+07/18/2023 06:07:03 PM: INFO: Authentication (password) successful!
+07/18/2023 06:11:21 PM: INFO: Total HTTP packet count : 56
+07/18/2023 06:11:21 PM: INFO: Test Login TO Device GUI
+07/18/2023 06:11:21 PM: INFO: Login to Device GUI
+07/19/2023 11:27:00 AM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 11:27:00 AM: INFO: Authentication (password) successful!
+07/19/2023 11:27:00 AM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 11:27:00 AM: INFO: Authentication (password) successful!
+07/19/2023 11:27:02 AM: INFO: Router Ip : 192.168.29.1
+07/19/2023 11:27:02 AM: INFO: Router SSH Username : admin
+07/19/2023 11:27:02 AM: INFO: Router SSH Password : Jiocentrum
+07/19/2023 11:27:03 AM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 11:27:03 AM: INFO: Authentication (password) successful!
+07/19/2023 11:32:05 AM: INFO: Total HTTP packet count : 68
+07/19/2023 11:32:05 AM: INFO: Test Login TO Device GUI
+07/19/2023 11:32:05 AM: INFO: Login to Device GUI
+07/19/2023 11:40:33 AM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 11:40:33 AM: INFO: Authentication (password) successful!
+07/19/2023 11:40:33 AM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 11:40:34 AM: INFO: Authentication (password) successful!
+07/19/2023 11:40:36 AM: INFO: Router Ip : 192.168.29.1
+07/19/2023 11:40:36 AM: INFO: Router SSH Username : admin
+07/19/2023 11:40:36 AM: INFO: Router SSH Password : Jiocentrum
+07/19/2023 11:40:36 AM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 11:40:36 AM: INFO: Authentication (password) successful!
+07/19/2023 11:44:52 AM: INFO: Total HTTP packet count : 48
+07/19/2023 11:44:53 AM: INFO: Test Login TO Device GUI
+07/19/2023 11:44:53 AM: INFO: Login to Device GUI
+07/19/2023 12:01:49 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 12:01:49 PM: INFO: Authentication (password) successful!
+07/19/2023 12:01:49 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 12:01:50 PM: INFO: Authentication (password) successful!
+07/19/2023 12:01:52 PM: INFO: Router Ip : 192.168.29.1
+07/19/2023 12:01:52 PM: INFO: Router SSH Username : admin
+07/19/2023 12:01:52 PM: INFO: Router SSH Password : Jiocentrum
+07/19/2023 12:01:52 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 12:01:52 PM: INFO: Authentication (password) successful!
+07/19/2023 12:08:34 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 12:08:34 PM: INFO: Authentication (password) successful!
+07/19/2023 12:08:34 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 12:08:34 PM: INFO: Authentication (password) successful!
+07/19/2023 12:08:36 PM: INFO: Router Ip : 192.168.29.1
+07/19/2023 12:08:36 PM: INFO: Router SSH Username : admin
+07/19/2023 12:08:36 PM: INFO: Router SSH Password : Jiocentrum
+07/19/2023 12:08:36 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 12:08:36 PM: INFO: Authentication (password) successful!
+07/19/2023 12:12:01 PM: ERROR: Socket exception: An existing connection was forcibly closed by the remote host (10054)
+07/19/2023 12:47:52 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 12:47:53 PM: INFO: Authentication (password) successful!
+07/19/2023 12:47:53 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 12:47:53 PM: INFO: Authentication (password) successful!
+07/19/2023 12:47:55 PM: INFO: Router Ip : 192.168.29.1
+07/19/2023 12:47:55 PM: INFO: Router SSH Username : admin
+07/19/2023 12:47:55 PM: INFO: Router SSH Password : Jiocentrum
+07/19/2023 12:47:55 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 12:47:55 PM: INFO: Authentication (password) successful!
+07/19/2023 12:52:22 PM: INFO: Total HTTP packet count : 48
+07/19/2023 12:52:23 PM: INFO: Test Login TO Device GUI
+07/19/2023 12:52:23 PM: INFO: Login to Device GUI
+07/19/2023 01:52:29 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 01:52:29 PM: INFO: Authentication (password) successful!
+07/19/2023 01:52:29 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 01:52:29 PM: INFO: Authentication (password) successful!
+07/19/2023 01:52:31 PM: INFO: Router Ip : 192.168.29.1
+07/19/2023 01:52:31 PM: INFO: Router SSH Username : admin
+07/19/2023 01:52:31 PM: INFO: Router SSH Password : Jiocentrum
+07/19/2023 01:52:31 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 01:52:32 PM: INFO: Authentication (password) successful!
+07/19/2023 01:57:49 PM: INFO: Total HTTP packet count : 68
+07/19/2023 01:57:50 PM: INFO: Test Login TO Device GUI
+07/19/2023 01:57:50 PM: INFO: Login to Device GUI
+07/19/2023 02:03:01 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 02:03:01 PM: INFO: Authentication (password) successful!
+07/19/2023 02:03:01 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 02:03:02 PM: INFO: Authentication (password) successful!
+07/19/2023 02:03:04 PM: INFO: Router Ip : 192.168.29.1
+07/19/2023 02:03:04 PM: INFO: Router SSH Username : admin
+07/19/2023 02:03:04 PM: INFO: Router SSH Password : Jiocentrum
+07/19/2023 02:03:04 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 02:03:04 PM: INFO: Authentication (password) successful!
+07/19/2023 02:08:22 PM: INFO: Total HTTP packet count : 76
+07/19/2023 02:08:22 PM: INFO: Test Login TO Device GUI
+07/19/2023 02:08:22 PM: INFO: Login to Device GUI
+07/19/2023 02:09:59 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 02:09:59 PM: INFO: Authentication (password) successful!
+07/19/2023 02:09:59 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 02:09:59 PM: INFO: Authentication (password) successful!
+07/19/2023 02:10:01 PM: INFO: Router Ip : 192.168.29.1
+07/19/2023 02:10:01 PM: INFO: Router SSH Username : admin
+07/19/2023 02:10:01 PM: INFO: Router SSH Password : Jiocentrum
+07/19/2023 02:10:01 PM: INFO: Connected (version 2.0, client dropbear)
+07/19/2023 02:10:02 PM: INFO: Authentication (password) successful!
+07/19/2023 02:14:22 PM: INFO: Total HTTP packet count : 54
+07/19/2023 02:14:22 PM: INFO: Test Login TO Device GUI
+07/19/2023 02:14:22 PM: INFO: Login to Device GUI
+07/21/2023 11:27:02 AM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 11:27:02 AM: INFO: Authentication (password) successful!
+07/21/2023 11:27:02 AM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 11:27:02 AM: INFO: Authentication (password) successful!
+07/21/2023 11:27:04 AM: INFO: Router Ip : 192.168.29.1
+07/21/2023 11:27:04 AM: INFO: Router SSH Username : admin
+07/21/2023 11:27:04 AM: INFO: Router SSH Password : Jiocentrum
+07/21/2023 11:27:04 AM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 11:27:04 AM: INFO: Authentication (password) successful!
+07/21/2023 11:31:23 AM: INFO: Total HTTP packet count : 54
+07/21/2023 11:31:23 AM: INFO: Test Login TO Device GUI
+07/21/2023 11:31:23 AM: INFO: Login to Device GUI
+07/21/2023 11:35:45 AM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 11:35:45 AM: INFO: Authentication (password) successful!
+07/21/2023 11:35:45 AM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 11:35:45 AM: INFO: Authentication (password) successful!
+07/21/2023 11:35:47 AM: INFO: Router Ip : 192.168.29.1
+07/21/2023 11:35:47 AM: INFO: Router SSH Username : admin
+07/21/2023 11:35:47 AM: INFO: Router SSH Password : Jiocentrum
+07/21/2023 11:35:47 AM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 11:35:47 AM: INFO: Authentication (password) successful!
+07/21/2023 11:37:51 AM: ERROR: Socket exception: An existing connection was forcibly closed by the remote host (10054)
+07/21/2023 11:53:54 AM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 11:53:55 AM: INFO: Authentication (password) successful!
+07/21/2023 11:53:55 AM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 11:53:55 AM: INFO: Authentication (password) successful!
+07/21/2023 11:53:57 AM: INFO: Router Ip : 192.168.29.1
+07/21/2023 11:53:57 AM: INFO: Router SSH Username : admin
+07/21/2023 11:53:57 AM: INFO: Router SSH Password : Jiocentrum
+07/21/2023 11:53:57 AM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 11:53:57 AM: INFO: Authentication (password) successful!
+07/21/2023 11:58:15 AM: INFO: Total HTTP packet count : 48
+07/21/2023 11:58:15 AM: INFO: Test Login TO Device GUI
+07/21/2023 11:58:15 AM: INFO: Login to Device GUI
+07/21/2023 12:02:27 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:02:27 PM: INFO: Authentication (password) successful!
+07/21/2023 12:02:27 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:02:27 PM: INFO: Authentication (password) successful!
+07/21/2023 12:02:29 PM: INFO: Router Ip : 192.168.29.1
+07/21/2023 12:02:29 PM: INFO: Router SSH Username : admin
+07/21/2023 12:02:29 PM: INFO: Router SSH Password : Jiocentrum
+07/21/2023 12:02:30 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:02:30 PM: INFO: Authentication (password) successful!
+07/21/2023 12:06:46 PM: INFO: Total HTTP packet count : 48
+07/21/2023 12:06:47 PM: INFO: Test Login TO Device GUI
+07/21/2023 12:06:47 PM: INFO: Login to Device GUI
+07/21/2023 12:14:09 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:14:09 PM: INFO: Authentication (password) successful!
+07/21/2023 12:14:09 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:14:09 PM: INFO: Authentication (password) successful!
+07/21/2023 12:14:11 PM: INFO: Router Ip : 192.168.29.1
+07/21/2023 12:14:11 PM: INFO: Router SSH Username : admin
+07/21/2023 12:14:11 PM: INFO: Router SSH Password : Jiocentrum
+07/21/2023 12:14:11 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:14:11 PM: INFO: Authentication (password) successful!
+07/21/2023 12:18:28 PM: INFO: Total HTTP packet count : 54
+07/21/2023 12:18:28 PM: INFO: Test Login TO Device GUI
+07/21/2023 12:18:28 PM: INFO: Login to Device GUI
+07/21/2023 12:24:05 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:24:05 PM: INFO: Authentication (password) successful!
+07/21/2023 12:24:05 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:24:05 PM: INFO: Authentication (password) successful!
+07/21/2023 12:24:07 PM: INFO: Router Ip : 192.168.29.1
+07/21/2023 12:24:07 PM: INFO: Router SSH Username : admin
+07/21/2023 12:24:07 PM: INFO: Router SSH Password : Jiocentrum
+07/21/2023 12:24:07 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:24:07 PM: INFO: Authentication (password) successful!
+07/21/2023 12:28:24 PM: INFO: Total HTTP packet count : 53
+07/21/2023 12:28:24 PM: INFO: Test Login TO Device GUI
+07/21/2023 12:28:24 PM: INFO: Login to Device GUI
+07/21/2023 12:31:17 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:31:17 PM: INFO: Authentication (password) successful!
+07/21/2023 12:31:17 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:31:17 PM: INFO: Authentication (password) successful!
+07/21/2023 12:31:19 PM: INFO: Router Ip : 192.168.29.1
+07/21/2023 12:31:19 PM: INFO: Router SSH Username : admin
+07/21/2023 12:31:19 PM: INFO: Router SSH Password : Jiocentrum
+07/21/2023 12:31:19 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:31:19 PM: INFO: Authentication (password) successful!
+07/21/2023 12:35:38 PM: INFO: Total HTTP packet count : 48
+07/21/2023 12:35:38 PM: INFO: Test Login TO Device GUI
+07/21/2023 12:35:38 PM: INFO: Login to Device GUI
+07/21/2023 12:38:59 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:38:59 PM: INFO: Authentication (password) successful!
+07/21/2023 12:38:59 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:39:00 PM: INFO: Authentication (password) successful!
+07/21/2023 12:39:02 PM: INFO: Router Ip : 192.168.29.1
+07/21/2023 12:39:02 PM: INFO: Router SSH Username : admin
+07/21/2023 12:39:02 PM: INFO: Router SSH Password : Jiocentrum
+07/21/2023 12:39:02 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:39:02 PM: INFO: Authentication (password) successful!
+07/21/2023 12:43:18 PM: INFO: Total HTTP packet count : 53
+07/21/2023 12:43:19 PM: INFO: Test Login TO Device GUI
+07/21/2023 12:43:19 PM: INFO: Login to Device GUI
+07/21/2023 12:46:39 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:46:39 PM: INFO: Authentication (password) successful!
+07/21/2023 12:46:39 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:46:40 PM: INFO: Authentication (password) successful!
+07/21/2023 12:46:42 PM: INFO: Router Ip : 192.168.29.1
+07/21/2023 12:46:42 PM: INFO: Router SSH Username : admin
+07/21/2023 12:46:42 PM: INFO: Router SSH Password : Jiocentrum
+07/21/2023 12:46:42 PM: INFO: Connected (version 2.0, client dropbear)
+07/21/2023 12:46:42 PM: INFO: Authentication (password) successful!
+07/21/2023 12:50:58 PM: INFO: Total HTTP packet count : 48
+07/21/2023 12:50:58 PM: INFO: Test Login TO Device GUI
+07/21/2023 12:50:58 PM: INFO: Login to Device GUI
+07/25/2023 04:03:10 PM: INFO: Connected (version 2.0, client dropbear)
+07/25/2023 04:03:10 PM: INFO: Authentication (password) successful!
+07/25/2023 04:03:10 PM: INFO: Connected (version 2.0, client dropbear)
+07/25/2023 04:03:10 PM: INFO: Authentication (password) successful!
+07/25/2023 04:03:12 PM: INFO: Router Ip : 192.168.29.1
+07/25/2023 04:03:12 PM: INFO: Router SSH Username : admin
+07/25/2023 04:03:12 PM: INFO: Router SSH Password : Jiocentrum
+07/25/2023 04:03:12 PM: INFO: Connected (version 2.0, client dropbear)
+07/25/2023 04:03:12 PM: INFO: Authentication (password) successful!
+07/25/2023 04:05:37 PM: INFO: Connected (version 2.0, client dropbear)
+07/25/2023 04:05:37 PM: INFO: Authentication (password) successful!
+07/25/2023 04:05:38 PM: INFO: Connected (version 2.0, client dropbear)
+07/25/2023 04:05:38 PM: INFO: Authentication (password) successful!
+07/25/2023 04:05:40 PM: INFO: Router Ip : 192.168.29.1
+07/25/2023 04:05:40 PM: INFO: Router SSH Username : admin
+07/25/2023 04:05:40 PM: INFO: Router SSH Password : Jiocentrum
+07/25/2023 04:05:40 PM: INFO: Connected (version 2.0, client dropbear)
+07/25/2023 04:05:40 PM: INFO: Authentication (password) successful!

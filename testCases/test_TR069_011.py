@@ -53,7 +53,7 @@ class Test_TR069_011:
         SSIDName, SSIDPwd = self.gw.SetSSIDFromGui(SSID_num)
         print('SSID name on GUI: ' + str(SSIDName))
 
-        time.sleep(5)
+
 
         self.driver.get(self.baseURL_acs)
         self.lp = Login_ACS(self.driver)

@@ -87,7 +87,7 @@ class Test_TR069_changeBroadcast:
                 self.ov.SelectMenuOverview()
                 self.ov.SelectSubMenu_NetworkStatus()
                 broadcastStatus = self.ov.GetBroadcastStatus(int(SSID_num))
-                print('AP Broadcast status on GUI : ' + str(broadcastStatus))
+                print('AP4 Broadcast status on GUI : ' + str(broadcastStatus))
                 self.lp.SwitchToDefault()
                 self.gw = Navigate_WiFi(self.driver)
                 self.gw.SelectMenuWiFi()

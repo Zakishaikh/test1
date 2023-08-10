@@ -34,12 +34,12 @@ class Login_ACS:
             print('Located Username')
         finally:
             self.driver.find_element(By.XPATH, self.textbox_username_xpath).clear()
-            self.driver.find_element(By.XPATH, self.textbox_username_xpath).send_keys(username)
+            self.driver.find_element(By.XPATH, self.textbox_username_xpath).send_keys('nidhi2.mishra')
             print('Entered Username')
 
     def SetPassword(self, password):
         self.driver.find_element(By.XPATH, self.textbox_password_xpath).clear()
-        self.driver.find_element(By.XPATH, self.textbox_password_xpath).send_keys(password)
+        self.driver.find_element(By.XPATH, self.textbox_password_xpath).send_keys('Te$t@!234')
         # print('Entered Password')
 
     def ClickLogin(self):
